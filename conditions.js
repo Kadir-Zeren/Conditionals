@@ -71,19 +71,46 @@
 // }
 // console.log(`${biggest} is biggest`);
 
-const grade1 = prompt("Please enter your grade");
+// const grade1 = prompt("Please enter your grade");
 
-grade1 >= 50 ? console.log("succeed") : console.log("failed");
-const score = grade1 >= 50 ? "passed" : "failed";
-console.log(score);
+// grade1 >= 50 ? console.log("succeed") : console.log("failed");
+// const score = grade1 >= 50 ? "passed" : "failed";
+// console.log(score);
 
-const score1 = grade1 >= 50 ? "succeed" : "";
-console.log(score1);
+// const score1 = grade1 >= 50 ? "succeed" : "";
+// console.log(score1);
 
-const speed = 110;
+// const speed = 110;
 
-speed > 120
-  ? console.log("speed")
-  : speed >= 90
-  ? console.log("normal")
-  : console.log("low speed");
+// speed > 120
+//   ? console.log("speed")
+//   : speed >= 90
+//   ? console.log("normal")
+//   : console.log("low speed");
+
+// if (speed > 120) {
+//   console.log("speedy");
+// } else if (speed >= 90) {
+//   console.log("normals");
+// } else {
+//   console.log("low speed");
+// }
+
+const age = 15;
+
+let description = "";
+
+// if (age >= 18) {
+//   description = "Adult";
+// }
+// description = age >= 18 ? "Adult" : "";
+//
+// age >= 18 && console.log("adult");
+
+age >= 18 && (description = "adult");
+
+
+age >= 18 || (description = "young");
+
+
+console.log(description);
